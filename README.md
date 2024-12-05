@@ -22,6 +22,9 @@ A Splunk Technology Add-on (TA) for Trend Micro Deep Discovery Email Inspector, 
 
 - **`props.conf`**: Configures field extractions, event parsing, and timestamp handling.
 - **`transforms.conf`**: Defines field mappings, data routing, and key-value extractions.
+- **`Permissions are configured in Splunk to allow:
+  - Global sharing for all users.
+  - Write access restricted to Admins only.
 
 ## Installation Instructions
 
