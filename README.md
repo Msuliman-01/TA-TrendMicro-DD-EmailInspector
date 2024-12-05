@@ -16,7 +16,7 @@ A Splunk Technology Add-on (TA) for Trend Micro Deep Discovery Email Inspector, 
 - **File Analysis Logs (`ddei:file_analysis`)**: Logs related to file analysis, including sandbox results and threat detection.
 - **System Logs (`ddei:system_logs`)**: Logs for system-related events such as updates and configurations.
 - **Time-of-Click Protection Logs (`ddei:time_of_click_protection`)**: Logs related to protecting against malicious links clicked by users.
-- **Default Catch-All Logs (`cefevents_ddi`)**: A generic type that captures logs not explicitly routed to other sourcetypes.
+- **Default Catch-All Logs (`cefevents_ddi`)**: A generic type that perform dynamic sourcetype transformation.
 
 ## Configuration Files
 
